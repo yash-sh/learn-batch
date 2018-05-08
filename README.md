@@ -8,7 +8,7 @@
   - Press **`WindowsKey+R`** to open **RUN** box.
   - Type **`cmd`** and hit **`Enter`**.
   - Command Prompt will open with cursor blinking after the path **`C:\Users\profileName>`** where `C` is the drive where Windows is installed, `Users` is the directory where data of all users are saved and `profileName` is the directory of the logged in User.
-  - We will learn command to change dirctory (change root directory) but till now there is an another shortcut to open CMD with path to specific directory by **holding `Shift`+ {clicking `Right mouse key` or `F10`} then {clicking `Open command window here` or press `W` and hit `Enter`}**.
+  - We will learn command to change directory (change root directory) but till now there is an another shortcut to open CMD with path to specific directory by **holding `Shift`+ {clicking `Right mouse key` or `F10`} then {clicking `Open command window here` or press `W` and hit `Enter`}**.
 - We can input commands in CMD or can run a batch file containing set of commands.
 
 ## Commands
@@ -17,3 +17,8 @@
   - Syntax
     - **`md newDirecory`**  :  Creates a directory with name `newDirectory`.
     - **`md path\to\newDirecory`**  :  Creates a directory with name `newDirectory` in `path\to\` if `path` and `to` already exist or create the tree `path\to\newDirectory` if `path` and `to` does not exist.
+- **`cd`**
+  - Task - change directory
+  - Syntax
+    - **`cd newDirecory`**  :  Change directory to `newDirectory` if it exists there.
+    - **`cd path\to\newDirecory`**  :  Change directory to `newDirectory` in `path\to\` if `path` and `to` exist.

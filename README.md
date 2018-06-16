@@ -9,6 +9,7 @@
   - Type **`cmd`** and hit **`Enter`**.
   - Command Prompt will open with cursor blinking after the path **`C:\Users\profileName>`** where `C` is the drive where Windows is installed, `Users` is the directory where data of all users are saved and `profileName` is the directory of the logged in User.
   - We will learn command to change directory (change root directory) but till now there is an another shortcut to open CMD with path to specific directory by **holding `Shift`+ {clicking `Right mouse key` or `F10`} then {clicking `Open command window here` or press `W` and hit `Enter`}**.
+  - To open Command Prompt as **Administrator** press **`WindowsKey`**, **type `cmd`** and **hit `Ctrl+Shift+Enter`**.
 - We can input commands in CMD or can run a batch file containing set of commands.
 
 ## Commands
